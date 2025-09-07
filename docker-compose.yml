@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  annotatorx:
+    build: .
+    volumes:
+      - ./datasets:/app/datasets
+      - ./annotations:/app/annotations
+      - ./tests:/app/tests
+    environment:
+      - PYTHONPATH=/app
+    command: ["python", "-m", "annotatorx", "--help"]
+    
+  test:
+    build: .
+    volumes:
+      - ./datasets:/app/datasets
+      - ./annotations:/app/annotations
+      - ./tests:/app/tests
+    environment:
+      - PYTHONPATH=/app
+    command: ["python", "-m", "pytest", "tests/", "-v"]
+    
+  validate:
+    build: .
+    volumes:
+      - ./datasets:/app/datasets
+      - ./annotations:/app/annotations
+      - ./tests:/app/tests
+    environment:
+      - PYTHONPATH=/app
+    command: ["python", "-m", "annotatorx", "validate", "annotations/example_annotations.json"]

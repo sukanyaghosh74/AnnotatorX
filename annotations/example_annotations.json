@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": 1,
+      "payload": {
+        "text": "This is a great product!",
+        "label": "POSITIVE"
+      },
+      "meta": {
+        "source": "annotatorx.simple_labeler",
+        "seed": 0
+      }
+    },
+    {
+      "id": 2,
+      "payload": {
+        "text": "I hate this service.",
+        "label": "NEGATIVE"
+      },
+      "meta": {
+        "source": "annotatorx.simple_labeler",
+        "seed": 0
+      }
+    },
+    {
+      "id": 3,
+      "payload": {
+        "text": "It's okay, nothing special.",
+        "label": "NEUTRAL"
+      },
+      "meta": {
+        "source": "annotatorx.simple_labeler",
+        "seed": 0
+      }
+    },
+    {
+      "id": 4,
+      "payload": {
+        "text": "Amazing quality and fast delivery.",
+        "label": "POSITIVE"
+      },
+      "meta": {
+        "source": "annotatorx.simple_labeler",
+        "seed": 0
+      }
+    },
+    {
+      "id": 5,
+      "payload": {
+        "text": "Terrible experience, would not recommend.",
+        "label": "NEGATIVE"
+      },
+      "meta": {
+        "source": "annotatorx.simple_labeler",
+        "seed": 0
+      }
+    },
+    {
+      "id": 6,
+      "payload": {
+        "text": "Pretty good overall.",
+        "label": "POSITIVE"
+      },
+      "meta": {
+        "source": "annotatorx.simple_labeler",
+        "seed": 0
+      }
+    },
+    {
+      "id": 7,
+      "payload": {
+        "text": "Worst purchase ever.",
+        "label": "NEGATIVE"
+      },
+      "meta": {
+        "source": "annotatorx.simple_labeler",
+        "seed": 0
+      }
+    },
+    {
+      "id": 8,
+      "payload": {
+        "text": "Excellent customer service.",
+        "label": "POSITIVE"
+      },
+      "meta": {
+        "source": "annotatorx.simple_labeler",
+        "seed": 0
+      }
+    },
+    {
+      "id": 9,
+      "payload": {
+        "text": "Average product, nothing to write home about.",
+        "label": "NEUTRAL"
+      },
+      "meta": {
+        "source": "annotatorx.simple_labeler",
+        "seed": 0
+      }
+    },
+    {
+      "id": 10,
+      "payload": {
+        "text": "Love it! Highly recommend.",
+        "label": "POSITIVE"
+      },
+      "meta": {
+        "source": "annotatorx.simple_labeler",
+        "seed": 0
+      }
+    }
+  ]
+}

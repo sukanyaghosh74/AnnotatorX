@@ -1,0 +1,14 @@
+{
+  "data": [
+    {"id": 1, "text": "This is a great product!"},
+    {"id": 2, "text": "I hate this service."},
+    {"id": 3, "text": "It's okay, nothing special."},
+    {"id": 4, "text": "Amazing quality and fast delivery."},
+    {"id": 5, "text": "Terrible experience, would not recommend."},
+    {"id": 6, "text": "Pretty good overall."},
+    {"id": 7, "text": "Worst purchase ever."},
+    {"id": 8, "text": "Excellent customer service."},
+    {"id": 9, "text": "Average product, nothing to write home about."},
+    {"id": 10, "text": "Love it! Highly recommend."}
+  ]
+}

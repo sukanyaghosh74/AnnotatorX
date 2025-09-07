@@ -1,0 +1,21 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.venv
+venv
+.env
+.git
+.gitignore
+.pytest_cache
+htmlcov
+.DS_Store
+node_modules
+
+# Ignore local datasets and outputs; keep examples
+annotations/*.json
+!annotations/example_annotations.json
+datasets/*.csv
+datasets/*.json
+!datasets/example_dataset.csv
+!datasets/example_dataset.json
