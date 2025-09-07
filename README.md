@@ -17,7 +17,7 @@ An end-to-end data annotation pipeline that ensures reproducibility, validation,
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/sukanyaghosh74/AnnotatorX.git
 cd annotate
 ```
 
@@ -213,3 +213,4 @@ This project is open source and available under the MIT License.
 ## Support
 
 For issues and questions, please open an issue on the GitHub repository.
+
